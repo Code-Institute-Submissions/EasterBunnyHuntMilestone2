@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Pacifico&display=swap');
+
+body{
+    font-family:"Pacifico", sans-serif;
+}
+.text-change{
+    font-family:"Bitter", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+.copy{
+    color:#fff;
+}
+.textsection{
+    padding-top: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Pacifico", sans-serif;
+   
+}
+
+.c-callout{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Pacifico", sans-serif;
+}
+
+.c-callout-info{
+    color: #fff;
+}
+
+
+
+/*----------------------------------------------------Containers*/
+.content-container{
+    background-color:transparent;
+}
+
+.coursedescription-container{
+    background-color:rgba(39, 73, 109, 1);
+    color: #fff;
+    font-size: 20px;
+    font-family:"Bitter", sans-serif;
+
+}
+.contactdescription-container{
+    background-color: rgb(58, 11, 106);
+    color: #fff;
+    font-size: 20px;
+    font-family:"Bitter", sans-serif;
+}
+
+.welcomedescription-container{
+    background-color:#A60639;
+    color: #fff;
+    font-size: 20px;
+    font-family:"Bitter", sans-serif;
+}
+.form{
+    text-align: center;
+     padding:10px;
+     background: url(../images/mainbackground.png) no-repeat center;
+}
+
+.websitebanner-container{
+    background: url(../images/background.jpg) no-repeat center; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.maindetails-container{
+     background: url(../images/background.jpg) no-repeat center; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+/*----------------------------------------------------Navigation*/
+/*Nav Bar*/
+
+.navbar{
+    min-height: 80px;
+}
+/*Adapted from Bootstrapious.com*/
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.navbar-brand{
+    font-size: 20px;  
+
+}
+
+.navbar-custom{
+    margin-bottom: 0;
+    border:0;
+    width: 100%;
+    background-color:#A60639; 
+    font-size: 20px;  
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+/*---------------------------------------------------------------*/
+.jumbotron {
+    background-color: transparent;
+}
+
+/*----------------------------------------------------Styling*/
+
+.coursedescription{
+    text-align: justify;
+    font-weight: bold;
+    margin: 25px, 0;
+}   
+.btn-colour
+{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     color:rgb(225, 13, 203);
+     background-color:rgba(20, 40, 80, 1);
+     border-radius: 0;
+}
+
+
+/*----------------------------------------------------Bootstrap Cards*/
+.card-body{
+    padding: 0.5rem;
+  
+}
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+}
+
+.testimonialcards{
+    background-color: rgb(31, 109, 156);
+    color: #fff;
+    padding-bottom: 30px;
+     font-family:"Bitter", sans-serif;
+
+}
+
+.coursecontentcard{
+    background-color: rgb(31, 109, 156);
+    color: #fff;
+}
+
+.coursecontentcard ul li{
+    font-family:"Bitter", sans-serif;
+
+}
+
+.careerscontentcard{
+    background-color: rgb(58, 11, 106);
+    color: #fff;
+    
+}
+.careerscontentcard ul li{
+    font-family:"Bitter", sans-serif;
+
+}
+
+.qualificationscontentcard{
+    background-color: rgb(161, 40, 73);
+    color: #fff;
+}
+.qualificationscontentcard ul li{
+    font-family:"Bitter", sans-serif;
+
+}
+
+/*----------------------------------------------------Banner Text*/
+/*  This code was adapted from boostrapcreative.com
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first. "
+*/
+.bannertext {font-size:1rem;
+ font-weight: 100;
+     font-family:'Pacifico', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    
+    } /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+ .bannertext {font-size:1.5rem;
+  font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+   
+ 
+ } /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .bannertext {font-size:2rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    } /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .bannertext {font-size:2.5rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+   } /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .bannertext {font-size:3rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+   } /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+.bannertext {font-size:2.75rem;
+   font-weight: 100;
+    font-family:"Pacifico", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 20%;
+    padding: 50px;    
+    } 
+}
+/* footer */
+footer{
+    background-color:#A60639;
+    min-height: 120px;
+    margin: 0;
+    text-align: center;
+
+  
+}
+
+.social-links i{
+    font-size: 160%;
+    color:#fafafa;
+    padding-top:20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.35s ease-in-out;/* transitions*/
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
+    color:	rgb(225, 13, 203);
+}
