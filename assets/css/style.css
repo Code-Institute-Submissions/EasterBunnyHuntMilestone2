@@ -3,183 +3,118 @@
 
 body{
     font-family:"Pacifico", sans-serif;
+}
+
+img{
+    width: 100px;
+}
+
+.bunny-game{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+   
+}
+
+.bunny-card{
+    width: calc(25% - 10px);
+    height: (33.333% -10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+   
+}
+
+.bunny-card active{
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+
+.front-face,
+.back-face{
     width: 100%;
     height: 100%;
-    margin: 0;
-    
+    padding: 20px;
+    position: absolute;
+    backface-visibility:hidden;
+}
+
+.front-face{
+    transform: rotateY (180deg);
+}
+
+.bunny-card.flip{
+    transform: scale(.97);
+    transition: transform .2s;
+
 }
 
 
-#container {
-    height: 90%;
-    width: 90%;
-    margin-left: 5%;
-    position: relative;
-    border: 1px solid red;
-    overflow: hidden;
-    background-color: #31b6ce;
-}
-
-
-#score_help {
+.text-change{
+    font-family:"Bitter", sans-serif;
+    color: #fff;
     text-align: center;
-    font-size: 25px;
-    background-color: #eaeaea;
-}
-
-
-#branch {
-    position: absolute;
-    
-    background-color: #7b2e00;
-    top: 23%;
-}
-.bunny {
-    position: absolute;
-    top: 10%;
-    background: url(../images/bunny.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 100;
-}
-
-
-#bunny1{
-    left: 20%;
-}
-
-#bunny2{
-    left: 40%;
-}
-
-#bunny3{
-    left: 60%;
-}
-
-.egg {
-    position: absolute;
-    top: 18%;
-    height: 5%;
-    width: 2%;
-    background-color:green;
-    border-radius: 50%;
-    z-index: 99;
-}
-
-#easteregg1{
-    left: calc(20% + 8%/2 - 2%/2);
-}
-
-#easteregg2{
-    left: calc(40% + 8%/2 - 2%/2);
-}
-#easteregg3{
-    left: calc(60% + 8%/2 - 2%/2);
-}
-
-.bullseye {
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    height: 7%;
-    width: 7%;
-    background: url(../images/brokenegg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 11;
-}
-
-#bunnyeye1 {
-    left: calc(20% + 8%/2 - 7%/2);
-}
-
-#bunnyeye2{
-    left: calc(40% + 8%/2 - 7%/2);
-}
-
-#bunnyeye3{
-    left: calc(60% + 8%/2 - 7%/2);
-}
-
-#floor {
-    position: absolute;
-    height: 7%;
-    width: 100%;
-    background-color: #292929;
-    bottom: 0;
-    z-index: 10;
-}
-
-#basket {
-    height: 100px;
-    width: 85px;
-    position: absolute;
-    bottom: 5px;
-    background: url(../images/bunny.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    z-index: 11;
-}
-
-#score_1 {
-    position: absolute;
-    color: #424242;
     font-size: 30px;
-    top: 45%;
-    left: 30%;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 10px;
 }
-
-#restart {
-    border: 0;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    background-color: fuchsia;
-    color: white;
-    top: 40%;
-    font-size: 35px;
-    display: none;
-    cursor: pointer;
-}#basket {
-    height: 100px;
-    width: 85px;
-    position: absolute;
-    bottom: 5px;
-    background: url('basket.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    z-index: 11;
+.copy{
+    color:#fff;
 }
-
-#score_1 {
-    position: absolute;
-    color: #424242;
+.textsection{
+    padding-top: 10px;
+    color: #fff;
     font-size: 30px;
-    top: 45%;
-    left: 30%;
+    font-family:"Pacifico", sans-serif;
+   
 }
 
-#restart {
-    border: 0;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    background-color: fuchsia;
-    color: white;
-    top: 40%;
-    font-size: 35px;
-    display: none;
-    cursor: pointer;
+.c-callout{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Pacifico", sans-serif;
 }
-.welcomecontainer{
-    background-color: blue;
+
+.c-callout-info{
+    color: #fff;
+}
+
+
+
+/*----------------------------------------------------Containers*/
+.content-container{
+    background-color:transparent;
+}
+
+.coursedescription-container{
+    background-color:rgba(39, 73, 109, 1);
+    color: #fff;
+    font-size: 20px;
+    font-family:"Bitter", sans-serif;
+
+}
+
+
+.welcomedescription-container{
+    background-color: rgb(161, 40, 73);
     color: #fff;
     font-size: 20px;
     font-family:"Bitter", sans-serif;
 }
-
+.form{
+    text-align: center;
+     padding:10px;
+     background: url(../images/mainbackground.png) no-repeat center;
+}
 
 .websitebanner-container{
     background: url(../images/background.jpg) no-repeat center; 
@@ -191,7 +126,19 @@ body{
     justify-content: center;
     position: relative;
 }
-----------------------------------------------------Navigation*/
+
+.maindetails-container{
+     background: url(../images/mainbackground.png) no-repeat center; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+/*----------------------------------------------------Navigation*/
 /*Nav Bar*/
 
 .navbar{
@@ -214,7 +161,7 @@ body{
     margin-bottom: 0;
     border:0;
     width: 100%;
-    background-color:#A60639; 
+    background-color: rgba(20, 40, 80, 1); 
     font-size: 20px;  
 }
 
@@ -233,7 +180,11 @@ body{
 
 /*----------------------------------------------------Styling*/
 
-
+.coursedescription{
+    text-align: justify;
+    font-weight: bold;
+    margin: 25px, 0;
+}   
 .btn-colour
 {
      margin-top: 50px;
@@ -263,34 +214,8 @@ body{
 
 }
 
-.coursecontentcard{
-    background-color: rgb(31, 109, 156);
-    color: #fff;
-}
 
-.coursecontentcard ul li{
-    font-family:"Bitter", sans-serif;
 
-}
-
-.careerscontentcard{
-    background-color: rgb(58, 11, 106);
-    color: #fff;
-    
-}
-.careerscontentcard ul li{
-    font-family:"Bitter", sans-serif;
-
-}
-
-.qualificationscontentcard{
-    background-color: rgb(161, 40, 73);
-    color: #fff;
-}
-.qualificationscontentcard ul li{
-    font-family:"Bitter", sans-serif;
-
-}
 
 /*----------------------------------------------------Banner Text*/
 /*  This code was adapted from boostrapcreative.com
@@ -396,7 +321,7 @@ Custom media queries
 }
 /* footer */
 footer{
-    background-color:#A60639;
+    background-color: rgba(20, 40, 80, 1);
     min-height: 120px;
     margin: 0;
     text-align: center;

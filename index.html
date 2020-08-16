@@ -36,43 +36,71 @@
     <div class="container-fluid  websitebanner-container">
      <div class="row">
       <div id="websitebanner" class="jumbotron container fixed mt-3"><!--Course Welcome Banner Callout-->
-        <div class="bannertext"> Easter Egg Hunt <br> Catch all the Easter Eggs from the Easter Bunny</div>
+        <div class="bannertext"> Easter Egg Hunt <br> Match the Easter Bunnies</div>
       </div>
      </div>
     </div><!--End Welcome Banner Callout-->
 
-  
- <div id="container">
+     <div class="container-fluid welcomedescription-container">
+       <div class="row justify-content-center">
+        <div id="welcomedescription" class="jumbotron container fixed"><!--mt-3-->
+         <div class="row justify-content-center">
+          <section class = "bunny-game">
+           <div class= "bunny-card" data-framework="pinkbunny">
+            <img class="front-face" src="assets/images/pinkbunny.jpg" alt="pinkbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>
+            <div class= "bunny-card" data-framework="pinkbunny">
+            <img class="front-face" src="assets/images/pinkbunny.jpg" alt="pinkbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>
+            <div class= "bunny-card" data-framework="greenbunny">
+            <img class="front-face" src="assets/images/greenbunny.jpg" alt="greenbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>
+            <div class= "bunny-card" data-framework="greenbunny">
+            <img class="front-face" src="assets/images/greenbunny.jpg" alt="greenbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>
+           <div class= "bunny-card" data-framework="bluebunny">
+            <img class="front-face" src="assets/images/bluebunny.jpg" alt="Bluebunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>  
+           <div class= "bunny-card" data-framework="bluebunny">
+            <img class="front-face" src="assets/images/bluebunny.jpg" alt="Bluebunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>     
+           <div class= "bunny-card" data-framework="pinkbunny">
+            <img class="front-face" src="assets/images/pinkbunny.jpg" alt="pinkbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>  
+           <div class= "bunny-card" data-framework="pinkbunny">
+            <img class="front-face" src="assets/images/pinkbunny.jpg" alt="pinkbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>   
+           <div class= "bunny-card" data-framework="greenbunny">
+            <img class="front-face" src="assets/images/greenbunny.jpg" alt="greenbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>
+           <div class= "bunny-card" data-framework="greenbunny">
+            <img class="front-face" src="assets/images/greenbunny.jpg" alt="greenbunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>   
+           <div class= "bunny-card" data-framework="bluebunny">
+            <img class="front-face" src="assets/images/bluebunny.jpg" alt="bluebunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>    
+           <div class= "bunny-card" data-framework="bluebunny">
+            <img class="front-face" src="assets/images/bluebunny.jpg" alt="bluebunny"/>
+            <img class="back-face" src="assets/images/eastereggback.jpg" all="EasterEgg"/>
+           </div>
+           </section>    
+          </div>
+          </div>
+         </div>
+        </div>
+       
 
-    <div id="score_help"> Score:
-      <span id="score">0</span> | Life:
-      <span id="life"></span> | Use mouse to control
-    </div>
-
-    <div id="branch"></div>
-
-    <div id="bunny1" class="bunny"></div>
-    <div id="bunny2" class="bunny"></div>
-    <div id="bunny3" class="bunny"></div>
-
-    <div id="easteregg1" class="egg" data-bullseye='1'></div>
-    <div id="easteregg2" class="egg" data-bullseye='2'></div>
-    <div id="easteregg3" class="egg" data-bullseye='3'></div>
-
-    <div id="bunnyeye1" class="bullseye"></div>
-    <div id="bunnyeye2" class="bullseye"></div>
-    <div id="bunnyeye3" class="bullseye"></div>
-
-    <div id="basket">
-      <span id="score_1"></span>
-    </div>
-
-    <div id="floor"></div>
-
-    <button id="restart">Restart</button>
-
-  </div>
-         
     
     
      <!--Footer-->
@@ -104,13 +132,6 @@
      <div class="copy">© 2020 John Organ</div>
     </footer>
 
-  <script src="jquery.min.js"></script>
-  <script src="collision_detection.js"></script>
-  <script src="variables.js"></script>
-  <script src="functions.js"></script>
-  <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <script src="scripts.js"></script>
   </body>
 </html>
