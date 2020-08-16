@@ -3,71 +3,183 @@
 
 body{
     font-family:"Pacifico", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
 }
-.text-change{
-    font-family:"Bitter", sans-serif;
-    color: #fff;
+
+
+#container {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    border: 1px solid red;
+    overflow: hidden;
+    background-color: #31b6ce;
+}
+
+
+#score_help {
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-top: 10px;
-}
-.copy{
-    color:#fff;
-}
-.textsection{
-    padding-top: 10px;
-    color: #fff;
-    font-size: 30px;
-    font-family:"Pacifico", sans-serif;
-   
-}
-
-.c-callout{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    color: #fff;
-    font-size: 30px;
-    font-family:"Pacifico", sans-serif;
-}
-
-.c-callout-info{
-    color: #fff;
+    font-size: 25px;
+    background-color: #eaeaea;
 }
 
 
-
-/*----------------------------------------------------Containers*/
-.content-container{
-    background-color:transparent;
+#branch {
+    position: absolute;
+    
+    background-color: #7b2e00;
+    top: 23%;
+}
+.bunny {
+    position: absolute;
+    top: 10%;
+    background: url(../images/bunny.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
 }
 
-.coursedescription-container{
-    background-color:rgba(39, 73, 109, 1);
-    color: #fff;
-    font-size: 20px;
-    font-family:"Bitter", sans-serif;
 
-}
-.contactdescription-container{
-    background-color: rgb(58, 11, 106);
-    color: #fff;
-    font-size: 20px;
-    font-family:"Bitter", sans-serif;
+#bunny1{
+    left: 20%;
 }
 
-.welcomedescription-container{
-    background-color:#A60639;
-    color: #fff;
-    font-size: 20px;
-    font-family:"Bitter", sans-serif;
+#bunny2{
+    left: 40%;
 }
-.form{
+
+#bunny3{
+    left: 60%;
+}
+
+.egg {
+    position: absolute;
+    top: 18%;
+    height: 5%;
+    width: 2%;
+    background-color:green;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+#easteregg1{
+    left: calc(20% + 8%/2 - 2%/2);
+}
+
+#easteregg2{
+    left: calc(40% + 8%/2 - 2%/2);
+}
+#easteregg3{
+    left: calc(60% + 8%/2 - 2%/2);
+}
+
+.bullseye {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    height: 7%;
+    width: 7%;
+    background: url(../images/brokenegg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 11;
+}
+
+#bunnyeye1 {
+    left: calc(20% + 8%/2 - 7%/2);
+}
+
+#bunnyeye2{
+    left: calc(40% + 8%/2 - 7%/2);
+}
+
+#bunnyeye3{
+    left: calc(60% + 8%/2 - 7%/2);
+}
+
+#floor {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: #292929;
+    bottom: 0;
+    z-index: 10;
+}
+
+#basket {
+    height: 100px;
+    width: 85px;
+    position: absolute;
+    bottom: 5px;
+    background: url(../images/bunny.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-     padding:10px;
-     background: url(../images/mainbackground.png) no-repeat center;
+    z-index: 11;
 }
+
+#score_1 {
+    position: absolute;
+    color: #424242;
+    font-size: 30px;
+    top: 45%;
+    left: 30%;
+}
+
+#restart {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: fuchsia;
+    color: white;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}#basket {
+    height: 100px;
+    width: 85px;
+    position: absolute;
+    bottom: 5px;
+    background: url('basket.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#score_1 {
+    position: absolute;
+    color: #424242;
+    font-size: 30px;
+    top: 45%;
+    left: 30%;
+}
+
+#restart {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: fuchsia;
+    color: white;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}
+.welcomecontainer{
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    font-family:"Bitter", sans-serif;
+}
+
 
 .websitebanner-container{
     background: url(../images/background.jpg) no-repeat center; 
@@ -79,19 +191,7 @@ body{
     justify-content: center;
     position: relative;
 }
-
-.maindetails-container{
-     background: url(../images/background.jpg) no-repeat center; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-bottom: 30px;
-}
-/*----------------------------------------------------Navigation*/
+----------------------------------------------------Navigation*/
 /*Nav Bar*/
 
 .navbar{
@@ -133,11 +233,7 @@ body{
 
 /*----------------------------------------------------Styling*/
 
-.coursedescription{
-    text-align: justify;
-    font-weight: bold;
-    margin: 25px, 0;
-}   
+
 .btn-colour
 {
      margin-top: 50px;
