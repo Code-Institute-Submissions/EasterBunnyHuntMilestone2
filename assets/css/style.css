@@ -34,7 +34,7 @@ body{
   transition: transform .2s;
 }
 
-.bunny-card.flip{
+.bunny-car.flip{
     transform: rotateY(180deg);
 }
 
@@ -52,14 +52,11 @@ body{
 }
 
 
-
 .bunny-card.flip{
     transform: scale(.97);
     transition: transform .2s;
 
 }
-
-
 
 .welcomedescription-container{
     background-color: rgb(161, 40, 73);
