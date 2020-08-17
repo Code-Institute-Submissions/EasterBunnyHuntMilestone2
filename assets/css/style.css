@@ -60,64 +60,12 @@ body{
 }
 
 
-.text-change{
-    font-family:"Bitter", sans-serif;
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-top: 10px;
-}
-.copy{
-    color:#fff;
-}
-.textsection{
-    padding-top: 10px;
-    color: #fff;
-    font-size: 30px;
-    font-family:"Pacifico", sans-serif;
-   
-}
-
-.c-callout{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    color: #fff;
-    font-size: 30px;
-    font-family:"Pacifico", sans-serif;
-}
-
-.c-callout-info{
-    color: #fff;
-}
-
-
-
-/*----------------------------------------------------Containers*/
-.content-container{
-    background-color:transparent;
-}
-
-.coursedescription-container{
-    background-color:rgba(39, 73, 109, 1);
-    color: #fff;
-    font-size: 20px;
-    font-family:"Bitter", sans-serif;
-
-}
-
 
 .welcomedescription-container{
     background-color: rgb(161, 40, 73);
     color: #fff;
     font-size: 20px;
     font-family:"Bitter", sans-serif;
-}
-.form{
-    text-align: center;
-     padding:10px;
-     background: url(../images/mainbackground.png) no-repeat center;
 }
 
 .websitebanner-container{
@@ -131,17 +79,7 @@ body{
     position: relative;
 }
 
-.maindetails-container{
-     background: url(../images/mainbackground.png) no-repeat center; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding-bottom: 30px;
-}
+
 /*----------------------------------------------------Navigation*/
 /*Nav Bar*/
 
@@ -182,41 +120,6 @@ body{
     background-color: transparent;
 }
 
-/*----------------------------------------------------Styling*/
-
-.coursedescription{
-    text-align: justify;
-    font-weight: bold;
-    margin: 25px, 0;
-}   
-.btn-colour
-{
-     margin-top: 50px;
-     margin-bottom: 50px;
-     color:rgb(225, 13, 203);
-     background-color:rgba(20, 40, 80, 1);
-     border-radius: 0;
-}
-
-
-/*----------------------------------------------------Bootstrap Cards*/
-.card-body{
-    padding: 0.5rem;
-  
-}
-.card {
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 0;
-}
-
-.testimonialcards{
-    background-color: rgb(31, 109, 156);
-    color: #fff;
-    padding-bottom: 30px;
-     font-family:"Bitter", sans-serif;
-
-}
 
 
 
