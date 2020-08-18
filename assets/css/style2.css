@@ -244,3 +244,40 @@ footer{
 .copy{
    color:#fafafa; 
 }
+
+@media (max-width: 401px) {
+    .bunny-card  {
+        width: calc(25% - 10px);
+  height: calc(30.555% - 10px);
+  margin: 5px;
+  position: relative;
+  
+    }
+}
+
+@media (min-width:768px) {
+    .bunny-card {
+        max-width: 140px;
+        max-height: 100px;
+    }
+}
+
+@media (min-width:992px) {
+    .bunny-card {
+        max-width: 214px;
+        max-height: 200px;
+    }
+}
+
+
+
+@media (min-width:1200px) {
+    .bunny-card {
+        max-width: 280px;
+        max-height: 280px;
+    }
+}
+
+
+
+

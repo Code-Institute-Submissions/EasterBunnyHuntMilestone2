@@ -1,39 +1,62 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project 2 - Easter Bunny Hunt - A fun interative game for kids.
 
-Welcome JOrgan-Source,
+#### John Organ
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# UX
 
-## Gitpod Reminders
+This website is designed as a simple interative memeory recall game for children. They are asked to find all the different Easter Bunny's by clicking on the easter eggs.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# Features
 
-A blue button should appear to click: *Make Public*,
+* Webpage - Contains the game developed for this project.
 
-Another blue button should appear to click: *Open Browser*.
+# Technologies used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* HTML5
+* CSS
+* Javascript
+* Bootstrap4
+* CoreUI-Open-source panels built on top of Bootstrap
+* Font Awesome
+* Google Fonts
 
-A blue button should appear to click: *Make Public*,
+# Testing
 
-Another blue button should appear to click: *Open Browser*.
+* Internet Explorer, Firefox, Google Chrome and Brave - No issues.
+* IPhone 5/SE, 6, 7, 8 (including Plus), X, iPad - No Issues (Tested through Chrome Developer Tools).
+* IPad Pro - Slight issue with Student Log In on this device. Page does not render as expected. Functionality of webpage still function as expected.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+# Github Links 
 
-## Updates Since The Instructional Video
+* GitHub Workspace
+[GitHub Workspace](https://github.com/JOrgan-Source/EasterEggHuntMilestone2)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* GitHub live project - A live demo can be found here
+[GitHub Live](https://jorgan-source.github.io/EasterEggHuntMilestone2/)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* The project was developed on the GitPod IDE and deployed to GitHub via the push function.
+* In order to deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+* Log into GitHub
+* Select the project from the repository list on screen.
+* Select Settings.
+* Scroll down to the GitHub Pages section.
+* Under Source click the drop-down menu labelled None and select Master Branch.
+* On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+* Scroll back down to the GitHub Pages section to obtain the link to the newly deployed website.
+* The Development and Master branch are identical at time of writing.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Credits
 
---------
+* Images - Images supplied by Pixbay, Upsplash, Pexels and Google Images.
+* Color palette - colorhunt.co
+* Code - Some code was adapted for use in the website, CoreUI-Open-source, Code Institute, MBootstrap, Bootstrapious,  Boostrapcreative. Additionally code was also adapted and used from the following sources: 
+* [Intro to CSS 3D transforms](https://3dtransforms.desandro.com/card-flip)
+* [Get BEM](https://3dtransforms.desandro.com/card-flip)
+* [freeCodeCamp](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
+* Due to time constraints this website was developed time 2 days this meant key functionality couldnt be added.
+* Acknowledgements - My Mentor Jonathan Munz
 
-Happy coding!
