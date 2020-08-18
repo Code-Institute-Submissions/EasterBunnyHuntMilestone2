@@ -30,10 +30,10 @@ This website is designed as a simple interative memory recall game for children.
 # Github Links 
 
 * GitHub Workspace
-[GitHub Workspace](https://github.com/JOrgan-Source/EasterEggHuntMilestone2)
+[GitHub Workspace](https://github.com/JOrgan-Source/EasterBunnyHuntMilestone2)
 
 * GitHub live project - A live demo can be found here
-[GitHub Live](https://jorgan-source.github.io/EasterEggHuntMilestone2/)
+[GitHub Live](https://jorgan-source.github.io/EasterBunnyHuntMilestone2/)
 
 # Deployment
 
