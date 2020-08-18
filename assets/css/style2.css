@@ -41,7 +41,7 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background: url(../images/background.jpg); 
   backface-visibility: hidden;
 }
 
@@ -49,7 +49,7 @@ body {
   transform: rotateY(180deg);
 }
 .welcomedescription-container{
-    background-color: rgb(161, 40, 73);
+    background-color:#A60664;
     color: #fff;
     font-size: 20px;
     font-family:"Bitter", sans-serif;
@@ -90,7 +90,7 @@ body {
     margin-bottom: 0;
     border:0;
     width: 100%;
-    background-color: rgba(20, 40, 80, 1); 
+    background-color:#A60664; 
     font-size: 20px;  
 }
 
@@ -215,7 +215,7 @@ Custom media queries
 }
 /* footer */
 footer{
-    background-color: rgba(20, 40, 80, 1);
+    background: url(../images/background.jpg); 
     min-height: 120px;
     margin: 0;
     text-align: center;
@@ -237,4 +237,8 @@ footer{
 
 .social-links i:hover {
     color:	rgb(225, 13, 203);
+}
+
+.copy{
+   color:#fafafa; 
 }
