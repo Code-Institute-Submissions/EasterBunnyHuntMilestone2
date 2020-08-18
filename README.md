@@ -4,7 +4,7 @@
 
 # UX
 
-This website is designed as a simple interative memeory recall game for children. They are asked to find all the different Easter Bunny's by clicking on the easter eggs.
+This website is designed as a simple interative memory recall game for children. They are asked to find all the different Easter Bunny's by clicking on the easter eggs.
 
 
 # Features
