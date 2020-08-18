@@ -245,15 +245,6 @@ footer{
    color:#fafafa; 
 }
 
-@media (max-width: 401px) {
-    .bunny-card  {
-        width: calc(25% - 10px);
-  height: calc(30.555% - 10px);
-  margin: 5px;
-  position: relative;
-  
-    }
-}
 
 @media (min-width:768px) {
     .bunny-card {
