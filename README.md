@@ -25,7 +25,7 @@ This website is designed as a simple interative memory recall game for children.
 
 * Internet Explorer, Firefox, Google Chrome and Brave - No issues.
 * IPhone 5/SE, 6, 7, 8 (including Plus), X, iPad - No Issues (Tested through Chrome Developer Tools).
-* IPad Pro - Slight issue with Student Log In on this device. Page does not render as expected. Functionality of webpage still function as expected.
+
 
 # Github Links 
 
